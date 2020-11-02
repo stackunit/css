@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .new {
+            float: left;
+            margin-left: 1%;
+        }
+
+        .wrapper {
+            height: 580px;
+            margin: 7% 5% 0%;
+
+        }
+
+        .layout {
+            width: 24.25%;
+            height: 580px;
+        }
+
+        .bg1 {
+            background: purple;
+        }
+
+        .bg2 {
+            background: blue;
+        }
+
+        .bg3 {
+            background: green;
+        }
+
+        .bg4 {
+            background: orangered;
+        }
+
+        .bigbox {
+            height: 137px;
+            margin-bottom: 10px;
+        }
+
+        .small {
+            width: 49%;
+            height: 137px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="layout fl">
+            <div class="bigbox bg1"></div>
+            <div class="bigbox bg2"></div>
+            <div class="bigbox bg3"></div>
+            <div class="bigbox bg4"></div>
+        </div>
+        <div class="layout new">
+            <div class="bigbox bg4"></div>
+            <div class="bigbox bg3"></div>
+            <div class="bigbox bg2"></div>
+            <div class="bigbox bg1"></div>
+        </div>
+        <div class="layout new">
+            <div class="bigbox">
+                <div class="small fl bg1"></div>
+                <div class="small fr bg4"></div>
+            </div>
+            <div class="bigbox">
+                <div class="small fl bg1"></div>
+                <div class="small fr bg4"></div>
+            </div>
+            <div class="bigbox bg3"></div>
+            <div class="bigbox bg4"></div>
+        </div>
+        <div class="layout fr">
+            <div class="bigbox bg1"></div>
+            <div class="bigbox bg2"></div>
+            <div class="bigbox">
+                <div class="small fl bg1"></div>
+                <div class="small fr bg4"></div>
+            </div>
+            <div class="bigbox">
+                <div class="small fl bg1"></div>
+                <div class="small fr bg4"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
