@@ -4,18 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Div</title>
     <style>
-        .Box2 {
-            height: 80px;
-            width: 49.50%;
-            background-color: blueviolet;
-        }
-
-        .box3 {
-            background-color: brown;
-        }
-
         .fl {
             float: left;
         }
@@ -24,18 +14,59 @@
             float: right;
         }
 
+        .new {
+            float: left;
+            margin-left: 1%;
+        }
+
         .clr {
             clear: both;
+        }
+
+        .box2 {
+            height: 80px;
+            width: 49.50%;
+            margin-top: 10px;
+        }
+
+        .box3 {
+            height: 80px;
+            width: 32.65%;
+            margin-top: 10px;
+        }
+
+        .box4 {
+            height: 80px;
+            width: 24.25%;
+            margin-top: 10px;
+        }
+
+        .bg1 {
+            background-color: aqua;
+        }
+
+        .bg2 {
+            background-color: brown;
         }
     </style>
 </head>
 
 <body>
-    <div style="height:80px; background-color: blue;"></div>
-    <div class="Box2 "></div>
-    <div class="box3 Box2 fr"></div>
+    <div style=" height:80px; background-color:blueviolet;"></div>
+    <div class="box2 bg1 fl"></div>
+    <div class="box2 bg2 fr"></div>
     <div class="clr"></div>
-    <div style="height:80px; background-color: blue;"></div>
+    <div class="box3 bg2 fl"></div>
+    <div class="box3 bg1 new"></div>
+    <div class="box3 bg2 fr"></div>
+    <div class="clr"></div>
+    <div class="box4 bg1 fl"></div>
+    <div class="box4 bg1 new"></div>
+    <div class="box4 bg1 new"></div>
+    <div class="box4 bg1 fr"></div>
+
+
+
 </body>
 
 </html>
