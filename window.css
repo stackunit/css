@@ -1,0 +1,19 @@
+*{ margin: 0; padding: 0;}
+.fl{ float: left;}
+.fr{ float: right;}
+.new{ float: left; margin-left: 1%;}
+.clr{ clear: both;}
+.wrapper{
+    height: 600px; 
+    margin:4% 5%;
+}
+.row{  height: 295px; margin-bottom: 10px;}
+.rowbox{ height: 295px; width: 49.50%;}
+.rowboxv{ height: 143px; margin-bottom: 10px;}
+.rowboxh{ height: 143px; width:49%;}
+.box3{ height: 295px; width: 32.65%;}
+.box3Left{ height: 92px; margin-bottom: 10px;}
+.bg1{ background-color: teal;}
+.bg2{ background-color: violet;}
+.bg3{ background-color: tomato;}
+.bg4{ background-color: blueviolet;;}
