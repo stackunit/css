@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Example</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-box {
+            width: 400px;
+            height: 400px;
+            background-color: blueviolet;
+            margin: auto;
+            margin-top: 10%;
+            position: relative;
+        }
+
+        .sub-box {
+            height: 140px;
+            width: 140px;
+            position: absolute;
+            border-radius: 70px;
+            border: 10px solid white;
+        }
+
+        .bg1 {
+            background-color: brown;
+            bottom: 330px;
+            right: 330px;
+
+        }
+
+        .bg2 {
+            background-color: chartreuse;
+            bottom: 330px;
+            left: 330px;
+        }
+
+        .bg3 {
+            background-color: crimson;
+            top: 330px;
+            right: 330px;
+        }
+
+        .bg4 {
+            background-color: darkmagenta;
+            top: 330px;
+            left: 330px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="sub-box bg1"></div>
+        <div class="sub-box bg2"></div>
+        <div class="sub-box bg3"></div>
+        <div class="sub-box bg4"></div>
+    </div>
+</body>
+
+</html>
