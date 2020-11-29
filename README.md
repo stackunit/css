@@ -1,7 +1,10 @@
-# css extends for cascading style sheet its discribe for markup language document
+# Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
 > inline
+
 > internal
+
 > external
+
 <a href="https://codewithpunit.github.io/css-index/">Start Css</a>
 <br>
 https://getwaves.io/
