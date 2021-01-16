@@ -5,6 +5,6 @@
 
 > external
 
-<a href="https://codewithpunit.github.io/css-index/">Start Css</a>
+<a href="https://codewithpunit.github.io/css/">Start Css</a>
 <br>
 https://getwaves.io/
