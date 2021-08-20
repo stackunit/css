@@ -5,6 +5,12 @@
 
 > external
 
+## css text
+
+> font-size
+
+>color
+
 <a href="https://codewithpunit.github.io/css/">Start Css</a>
 <br>
 https://getwaves.io/
