@@ -4,4 +4,4 @@
 
 > color 
 
->
+>text-align :left , center ,right , justify
